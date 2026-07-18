@@ -44,7 +44,7 @@
   </p>
 
   <div class="actions">
-    <a class="button" href="incy://autorouting/onadd/https://raw.githubusercontent.com/mashinal/incy-routing/main/profile.json">
+    <a class="button" href="#" id="installRoutingButton">
       Добавить с автообновлением
     </a>
   </div>
@@ -58,5 +58,19 @@
     <code>https://raw.githubusercontent.com/mashinal/incy-routing/main/profile.json</code>
   </p>
 
+  <script>
+    document
+      .getElementById("installRoutingButton")
+      .addEventListener("click", function (event) {
+        event.preventDefault();
+
+        const scheme = ["in", "cy"].join("");
+        const profileUrl =
+          "https://raw.githubusercontent.com/mashinal/incy-routing/main/profile.json";
+
+        window.location.href =
+          scheme + "://autorouting/onadd/" + profileUrl;
+      });
+  </script>
 </body>
 </html>
