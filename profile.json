@@ -12,7 +12,7 @@
   "DomesticDNSIP": "77.88.8.8",
   "Geoipurl": "",
   "Geositeurl": "",
-  "LastUpdated": "1784458375",
+  "LastUpdated": "1785224362",
   "DnsHosts": {},
   "RouteOrder": "block-proxy-direct",
   "DirectSites": [
@@ -218,7 +218,21 @@
     "full:bcs.ru",
     "domain:bcs.ru",
     "full:bcs-bank.ru",
-    "domain:bcs-bank.ru"
+    "domain:bcs-bank.ru",
+    "full:avito.ru",
+    "domain:avito.ru",
+    "full:avito.st",
+    "domain:avito.st",
+    "full:samokat.ru",
+    "domain:samokat.ru",
+    "full:samokat.io",
+    "domain:samokat.io",
+    "full:api.partner.market.yandex.ru",
+    "full:partner.market.yandex.ru",
+    "full:beru.ru",
+    "domain:beru.ru",
+    "full:yastatic.net",
+    "domain:yastatic.net"
   ],
   "DirectIp": [
     "geoip:private"
