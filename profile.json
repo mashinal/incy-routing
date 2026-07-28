@@ -12,7 +12,7 @@
   "DomesticDNSIP": "77.88.8.8",
   "Geoipurl": "",
   "Geositeurl": "",
-  "LastUpdated": "1785224362",
+  "LastUpdated": "1785232519",
   "DnsHosts": {},
   "RouteOrder": "block-proxy-direct",
   "DirectSites": [
@@ -232,7 +232,11 @@
     "full:beru.ru",
     "domain:beru.ru",
     "full:yastatic.net",
-    "domain:yastatic.net"
+    "domain:yastatic.net",
+    "full:lamoda.ru",
+    "domain:lamoda.ru",
+    "full:lmcdn.ru",
+    "domain:lmcdn.ru"
   ],
   "DirectIp": [
     "geoip:private"
